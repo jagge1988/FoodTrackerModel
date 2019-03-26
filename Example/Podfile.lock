@@ -1,0 +1,16 @@
+PODS:
+  - FoodTrackerModel (0.1.0)
+
+DEPENDENCIES:
+  - FoodTrackerModel (from `../`)
+
+EXTERNAL SOURCES:
+  FoodTrackerModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FoodTrackerModel: 145ec3dbf301f352f1c9bd603e061b2f8fbde27f
+
+PODFILE CHECKSUM: 9318af5fe58d4539682444a2cff3f061a2aebf84
+
+COCOAPODS: 1.6.1

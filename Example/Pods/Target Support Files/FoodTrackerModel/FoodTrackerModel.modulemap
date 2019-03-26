@@ -1,0 +1,6 @@
+framework module FoodTrackerModel {
+  umbrella header "FoodTrackerModel-umbrella.h"
+
+  export *
+  module * { export * }
+}

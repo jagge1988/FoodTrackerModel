@@ -13,8 +13,8 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6B917A6E83129E8088F7AE10 /* Pods_FoodTrackerModel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E6FBDAEE3C9FF25219043A /* Pods_FoodTrackerModel_Example.framework */; };
+		BCB47ACB224A36AE00CC22B7 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB47ACA224A36AE00CC22B7 /* FoodTrackerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 
 /* Begin PBXFileReference section */
 		152C4DF9BA95E0F2F039707F /* Pods_FoodTrackerModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTrackerModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E2195BB4537B7CC6FC2C5C4 /* FoodTrackerModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FoodTrackerModel.podspec; path = ../FoodTrackerModel.podspec; sourceTree = "<group>"; };
-		22F1754894BD2BC520561259 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1E2195BB4537B7CC6FC2C5C4 /* FoodTrackerModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FoodTrackerModel.podspec; path = ../FoodTrackerModel.podspec; sourceTree = "<group>"; };
+		22F1754894BD2BC520561259 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		35CE9B557762822A2C769D54 /* Pods-FoodTrackerModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrackerModel_Example.debug.xcconfig"; path = "Target Support Files/Pods-FoodTrackerModel_Example/Pods-FoodTrackerModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3798A2523550DA2059A3493B /* Pods-FoodTrackerModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrackerModel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FoodTrackerModel_Tests/Pods-FoodTrackerModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E38D6EE1F8BB2013856C2C9 /* Pods-FoodTrackerModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrackerModel_Tests.release.xcconfig"; path = "Target Support Files/Pods-FoodTrackerModel_Tests/Pods-FoodTrackerModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		45420832A1EEF45B1B27ABF3 /* Pods-FoodTrackerModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrackerModel_Example.release.xcconfig"; path = "Target Support Files/Pods-FoodTrackerModel_Example/Pods-FoodTrackerModel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4D30368A2E2C55387322B6BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4D30368A2E2C55387322B6BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FoodTrackerModel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTrackerModel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* FoodTrackerModel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerModel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		BCB47ACA224A36AE00CC22B7 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		C1E6FBDAEE3C9FF25219043A /* Pods_FoodTrackerModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTrackerModel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				3798A2523550DA2059A3493B /* Pods-FoodTrackerModel_Tests.debug.xcconfig */,
 				3E38D6EE1F8BB2013856C2C9 /* Pods-FoodTrackerModel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -127,7 +126,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				BCB47ACA224A36AE00CC22B7 /* FoodTrackerTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = T2M8W95T9G;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = T2M8W95T9G;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -314,14 +315,11 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodTrackerModel_Example/Pods-FoodTrackerModel_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FoodTrackerModel/FoodTrackerModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoodTrackerModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -344,7 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				BCB47ACB224A36AE00CC22B7 /* FoodTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -469,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -482,10 +480,12 @@
 			baseConfigurationReference = 35CE9B557762822A2C769D54 /* Pods-FoodTrackerModel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T2M8W95T9G;
 				INFOPLIST_FILE = FoodTrackerModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jagielskis.demo.FoodTrackerModel-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -497,10 +497,12 @@
 			baseConfigurationReference = 45420832A1EEF45B1B27ABF3 /* Pods-FoodTrackerModel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T2M8W95T9G;
 				INFOPLIST_FILE = FoodTrackerModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jagielskis.demo.FoodTrackerModel-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -511,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3798A2523550DA2059A3493B /* Pods-FoodTrackerModel_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = T2M8W95T9G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -533,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E38D6EE1F8BB2013856C2C9 /* Pods-FoodTrackerModel_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = T2M8W95T9G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
